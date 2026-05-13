@@ -1,25 +1,25 @@
 {
-  "name": "saltline-api",
-  "main": "src/index.ts",
-  "compatibility_date": "2025-05-13",
-  "d1_databases": [
-    {
-      "binding": "db",
-      "database_name": "saltline-db",
-      "database_id": "5affb086-e9b3-4708-9216-7c67ae71976c",
-      "remote": true
-    }
-  ],
-  "r2_buckets": [
-    {
-      "bucket_name": "saltline-models",
-      "binding": "saltline_models",
-      "remote": true
-    }
-  ],
-  "send_email": [
-    {
-      "name": "EMAIL_SERVICE"
-    }
-  ]
+    "name": "saltline-worker",
+    "main": "src/index.ts",
+    "compatibility_date": "2025-05-13",
+    "d1_databases": [
+        {
+            "binding": "db",
+            "database_name": "saltline-db",
+            "database_id": "5affb086-e9b3-4708-9216-7c67ae71976c",
+            "remote": true,
+        },
+    ],
+    "r2_buckets": [
+        {
+            "bucket_name": "saltline-models",
+            "binding": "saltline_models",
+            "remote": true,
+        },
+    ],
+    "send_email": [
+        {
+            "name": "EMAIL_SERVICE",
+        },
+    ],
 }
