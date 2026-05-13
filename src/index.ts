@@ -65,6 +65,7 @@ export default {
             }
 
             const event = JSON.parse(body);
+            console.log(`Polar webhook triggered: ${event.type}`);
             console.log(
                 "Polar webhook received:",
                 JSON.stringify(event, null, 2),
